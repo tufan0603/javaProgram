@@ -4,6 +4,7 @@ public class removeSpecialChar {
         String str = "$ja!va$&st%ar";
 
         // Approach -1
-        str.replaceAll("[^a-zA-Z0-9]" , "");
+       String temp=str.replaceAll("[^a-zA-Z0-9]" , "");
+        System.out.println(temp);
     }
 }
